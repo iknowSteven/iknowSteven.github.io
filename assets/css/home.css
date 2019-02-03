@@ -30,7 +30,7 @@ html {
     transition: .5s;
 }
 
-#home_main img {
+#home_main_profile {
     border-radius: 50%;
     border: 3px solid #fff;
     height: 150px;
