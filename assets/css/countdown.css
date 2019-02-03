@@ -41,8 +41,8 @@
 
 @media ( max-width: 1000px ) {
     .countdown_container_white {
-        width: calc(33% - 20px);
-        padding-bottom: calc(33% - 20px);
+        width: calc(31.9991vw - 26.7px);
+        height: calc(31.9991vw - 26.7px);
     }
 }
 
