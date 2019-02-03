@@ -9,7 +9,6 @@
 }
 
 #AI_Study {
-    background-image: url("../../images/home/AI_Study.png");
     background-size: 100%;
-    background-repeat: no-repeat;
+    background: url("../../images/home/AI_Study.png") no-repeat;
 }
