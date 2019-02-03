@@ -4,10 +4,11 @@
     border-color: #2aa198;
     color: #FFFFFF;
     margin: auto;
-    position: relative;
+    display: table;
 }
 
 .countdown_container_white h1 {
+    display: table-cell;
     vertical-align: middle;
 }
 
