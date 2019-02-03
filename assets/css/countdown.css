@@ -10,10 +10,11 @@
 .countdown_container_white h1 {
     display: table-cell;
     vertical-align: middle;
+    text-align: center;
 }
 
 .countdown_container_white h3 {
-    bottom: 0px;
+    display: table-cell;
     vertical-align: bottom;
 }
 
