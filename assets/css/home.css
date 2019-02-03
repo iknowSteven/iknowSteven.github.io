@@ -61,6 +61,7 @@ html {
     left: 50%;
     transform:translateX(-50%);
     bottom: 15px;
+    margin: auto;
 }
 
 .home_main_bio {
@@ -68,4 +69,5 @@ html {
     box-shadow: 0 0 1px 0 rgba(40,40,40,0.5);
     height: 50px;
     line-height: 50px;
+    margin: 0 10px 0 px;
 }
