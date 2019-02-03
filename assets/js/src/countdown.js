@@ -1,4 +1,4 @@
-var countDownSince = document.getElementsByClassName("countdown_since");
+var countDownSince = document.getElementsByClassName("countdown_since")[0];
 var countDownDate = new Date(countDownSince).getDate();
 
 var x = setInterval(function() {
