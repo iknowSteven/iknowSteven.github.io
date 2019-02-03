@@ -1,9 +1,9 @@
 var countDownSince = document.getElementsByClassName("countdown_since");
-var countDownDate = new Date(countDownSince);
+var countDownDate = new Date(countDownSince).getDate();
 
 var x = setInterval(function() {
 
-    var now = new Date();
+    var now = new Date().getDate();
 
     var distance = countDownDate - now;
     var days = Math.floor(distance / (1000 * 60 * 60 * 24));
