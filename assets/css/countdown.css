@@ -24,6 +24,9 @@
     left: 50%;
     transform:translateX(-50%);
     bottom: 0px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 .countdown_since {
