@@ -1,4 +1,3 @@
-<script>
 var countDownSince = document.getElementsByClassName("countdown_since");
 var countDownDate = new Date(countDownSince).getTime();
 
@@ -16,4 +15,3 @@ var x = setInterval(function() {
         document.getElementById("demo").innerHTML = "EXPIRED";
     }
 }, 1000);
-</script>
