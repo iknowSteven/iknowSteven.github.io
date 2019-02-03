@@ -11,6 +11,7 @@
     -o-background-size: cover;
     background-size: cover;
     display: inline-block;
+    margin: 0 10px 0 10px;
 }
 
 .countdown_container_white h1 {
@@ -42,7 +43,6 @@
     .countdown_container_white {
         width: calc(30vw - 20px);
         height: calc(30vw - 20px);
-        margin: 0 10px 0 10px;
     }
 }
 
