@@ -80,3 +80,25 @@ html {
     margin: 1em 0;
     background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
 }
+
+#home_main_social_container {
+    width: 95%;
+    max-width: 510px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 15px;
+    text-align: center;
+}
+
+.home_main_social_black_bio_black {
+    width: 40px;
+    height: 40px;
+    background-color: #2c2c33;
+}
+
+.home_main_social_gray_bio_gray {
+    width: 40px;
+    height: 40px;
+    background-color: #585b63;
+}
