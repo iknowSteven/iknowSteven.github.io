@@ -1,5 +1,11 @@
 html {
-    background: #2c2d33;
+    background: url("../../images/placeholder-big.jpg") no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: inline-block;
 }
 
 #all_countdown_container {
