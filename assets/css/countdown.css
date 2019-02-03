@@ -39,10 +39,10 @@
     font-weight: 500;
 }
 
-@media ( max-width: 990px ) {
+@media ( max-width: 984px ) {
     .countdown_container_white {
-        width: calc(30vw - 20px);
-        height: calc(30vw - 20px);
+        width: calc(33.3vw - 26.7px);
+        height: calc(33.3vw - 26.7px);
     }
 }
 

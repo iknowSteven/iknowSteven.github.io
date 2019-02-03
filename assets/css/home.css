@@ -10,8 +10,15 @@ html {
 }
 
 #all_countdown_container {
+    display: block;
     margin: auto;
     min-height: calc(100vh - 10px);
+}
+
+@media ( max-width: 984px ) {
+    #all_countdown_container {
+        width: calc(100% - 20px);
+    }
 }
 
 #all_countdown h1 {
