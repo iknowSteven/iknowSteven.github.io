@@ -15,7 +15,7 @@ html {
     min-height: calc(100vh - 10px);
 }
 
-@media ( max-width: 984px ) {
+@media ( max-width: 1000px ) {
     #all_countdown_container {
         width: calc(100% - 20px);
     }

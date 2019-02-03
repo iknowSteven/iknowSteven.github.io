@@ -39,7 +39,7 @@
     font-weight: 500;
 }
 
-@media ( max-width: 984px ) {
+@media ( max-width: 1000px ) {
     .countdown_container_white {
         width: calc(33.3vw - 26.7px);
         height: calc(33.3vw - 26.7px);
