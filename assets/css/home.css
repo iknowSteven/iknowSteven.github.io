@@ -13,13 +13,19 @@ html {
 }
 
 #home_main {
-    width: 500px;
+    width: 36rem;
+    max-width: 550px;
     height: 480px;
     background: #FFFFFF;
-    border-radius: 5px;
+    border-radius: 3px;
     box-shadow: 0 0 10px 0 rgba(40, 40, 40, 0.3);
     position: absolute;
     top: 50%;
     left: 50%;
     transform:translate(-50%, -50%);
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
 }
