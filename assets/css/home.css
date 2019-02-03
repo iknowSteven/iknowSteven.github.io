@@ -6,6 +6,7 @@ html {
     -o-background-size: cover;
     background-size: cover;
     display: inline-block;
+    background-attachment: fixed;
 }
 
 #all_countdown_container {
