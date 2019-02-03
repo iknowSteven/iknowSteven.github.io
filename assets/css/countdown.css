@@ -53,6 +53,14 @@
     }
 }
 
+@media ( max-width: 670px ) {
+    .countdown_container_white {
+        width: calc(100vw - 48px);
+        height: calc(100vw - 48px);
+    }
+}
+
+
 .countdown_since {
     display: none;
 }
