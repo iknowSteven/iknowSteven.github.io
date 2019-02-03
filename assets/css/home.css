@@ -91,7 +91,7 @@ html {
     text-align: center;
 }
 
-#home_main_social_container img {
+.home_main_social_img {
     width: 30px;
     margin-top: 5px;
     margin-left: 5px;
