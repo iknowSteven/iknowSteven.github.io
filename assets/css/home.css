@@ -61,7 +61,7 @@ html {
     left: 50%;
     transform:translateX(-50%);
     bottom: 15px;
-    margin: auto;
+    text-align: center;
 }
 
 .home_main_bio {
