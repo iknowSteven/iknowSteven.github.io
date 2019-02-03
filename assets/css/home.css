@@ -35,8 +35,14 @@ html {
     border: 3px solid #fff;
     height: 150px;
     width: 150px;
-    position: absolute;
+    position: relative;
     top: 15px;
     left: 50%;
     transform:translateX(-50%);
 }
+
+#home_main h1 {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+ }
