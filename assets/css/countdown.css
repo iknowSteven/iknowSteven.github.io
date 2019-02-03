@@ -1,8 +1,22 @@
 .countdown_container_white {
-    width: 400px;
-    height: 300px;
+    width: 500px;
+    height: 500px;
     border-color: #2aa198;
     color: #FFFFFF;
+    margin: auto;
+}
+
+.countdown_container_white h1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.countdown_container_white h3 {
+    bottom: 0px;
 }
 
 .countdown_since {
