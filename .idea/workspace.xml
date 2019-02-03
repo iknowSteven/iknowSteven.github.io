@@ -79,7 +79,7 @@
         <entry file="file://$PROJECT_DIR$/assets/js/src/countdown.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="81" selection-start-column="81" selection-end-column="81" />
+              <caret column="71" selection-start-column="71" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -239,12 +239,12 @@
       <option name="presentableId" value="Default" />
       <updated>1549177623164</updated>
       <workItem from="1549177625922" duration="2817000" />
-      <workItem from="1549180482330" duration="2448000" />
+      <workItem from="1549180482330" duration="2556000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5265000" />
+    <option name="totallyTimeSpent" value="5373000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="186" y="117" width="1680" height="975" extended-state="0" />
@@ -366,7 +366,7 @@
     <entry file="file://$PROJECT_DIR$/assets/js/src/countdown.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="81" selection-start-column="81" selection-end-column="81" />
+          <caret column="71" selection-start-column="71" selection-end-column="71" />
         </state>
       </provider>
     </entry>
