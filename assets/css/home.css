@@ -16,6 +16,10 @@ html {
     width: 500px;
     height: 480px;
     background: #FFFFFF;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 0 0 10px 0 rgba(40, 40, 40, 0.3);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
 }
