@@ -53,3 +53,17 @@ html {
     font-weight: 400;
     text-align: center;
 }
+
+#home_main_bio_container {
+    margin-left: 1em;
+    max-width: 510px;
+    position: absolute;
+    left: 50%;
+    transform:translateX(-50%);
+    bottom: 15px;
+}
+
+.home_main_bio {
+    display: inline-block;
+    box-shadow: 0 0 1px 0 rgba(40,40,40,0.5);
+}
