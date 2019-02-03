@@ -11,7 +11,7 @@ html {
 
 #all_countdown_container {
     margin: auto;
-    min-height: 100vh;
+    min-height: calc(100vh - 10px);
 }
 
 #all_countdown h1 {
