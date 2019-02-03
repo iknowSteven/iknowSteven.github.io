@@ -4,5 +4,5 @@ var now = new Date().getTime();
 var distance = now - countDownDate;
 var days = Math.floor(distance / (1000 * 60 * 60 * 24));
 
-document.getElementsByClassName("countdown_remain")[0].innerHTML = days + "days ";
+document.getElementsByClassName("countdown_remain")[0].innerHTML = "Since "+days+" days ";
 
