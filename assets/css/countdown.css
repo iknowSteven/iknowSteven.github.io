@@ -4,6 +4,7 @@
     border-color: #2aa198;
     color: #FFFFFF;
     margin: auto;
+    position: relative;
 }
 
 .countdown_container_white h1 {
