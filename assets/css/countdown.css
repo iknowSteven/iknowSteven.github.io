@@ -33,6 +33,7 @@
     text-align: left;
     display: inline-block;
     display: -moz-inline-block;
+    margin-bottom: 20px;
 }
 
 @media ( max-width: 1680px ) {
