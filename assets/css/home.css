@@ -201,7 +201,10 @@ body {
 }
 
 #all_countdown_chapter_header {
-    color: #fff;
+    width: 1000px;
+    height: 30px;
+    color: #2c2d33;
+    background-color: #fff;
 }
 
 #logo {
