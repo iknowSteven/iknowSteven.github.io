@@ -12,6 +12,10 @@
     }
 }
 
+#all_countdown {
+    margin-top: 50px;
+}
+
 #all_countdown h1 {
     font-size: 50px;
     font-weight: 700;
