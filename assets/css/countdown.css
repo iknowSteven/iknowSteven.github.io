@@ -40,15 +40,12 @@
     height: auto;
 }
 
-.countdown_container_white_box {
-    width: 100%;
-    height: auto;
-}
-
 .countdown_remain {
+    position: relative;
     width: 70%;
     left: 50%;
     transform:translateX(-50%);
+    top: 10px;
     font-size: 14px;
     font-weight: 300;
 }
@@ -57,15 +54,19 @@
     font-size: 38px;
     font-weight: 700;
     color: #3f3f3f;
+    top: 12px;
+    position:relative;
     width: 70%;
     left: 50%;
     transform:translateX(-50%);
     margin: 0;
     padding: 0;
+    line-height: 38px;
 }
 
 .countdown_container_white_subtext {
     color: #8d8d8d;
+    position:relative;
     font-weight: 300;
     font-size: 14px;
     width: 70%;
