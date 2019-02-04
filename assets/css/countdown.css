@@ -20,9 +20,14 @@
     font-size: 28px;
     font-weight: 700;
     color: #3f3f3f;
-    margin-top: 12px;
-    margin-bottom: 14px;
-    line-height: 100%!important;
+    top: 12px;
+    display: block;
+    position:relative;
+    width: 90%;
+    left: 50%;
+    transform:translateX(-50%);
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -36,20 +41,6 @@
     display: inline-block;
     margin: 0 10px 0 10px;
     vertical-align: middle;
-}
-
-.countdown_container_white h1 {
-    display: block;
-    position:absolute;
-    top: 50%;
-    left: 50%;
-    width: 100%;
-    transform:translate(-50%, -50%);
-    font-size: 40px;
-    font-weight: 700;
-    text-align: center;
-    margin: 0;
-    padding: 0;
 }
 
 .countdown_container_white h3 {
