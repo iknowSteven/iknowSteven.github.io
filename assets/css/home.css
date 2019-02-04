@@ -175,8 +175,21 @@ body {
 }
 
 #all_countdown_chapter h1 {
-    font-size: 40px;
-    font-weight: 700;
+     font-size: 40px;
+     font-weight: 700;
+     margin: 0;
+     padding: 0;
+     color: #fff;
+     position: relative;
+     top: 50%;
+     left: 50%;
+     width: 100%;
+     transform:translate(-50%, -50%);
+ }
+
+#all_countdown_chapter h3 {
+    font-size: 20px;
+    font-weight: 400;
     margin: 0;
     padding: 0;
     color: #fff;
