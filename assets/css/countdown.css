@@ -42,14 +42,14 @@
 
 .countdown_container_white_subtext {
     color: #8d8d8d;
-    top: 20px;
+    top: 40px;
     position:relative;
     font-weight: 400;
     font-size: 14px;
     width: 70%;
     left: 50%;
     transform:translateX(-50%);
-    margin: 0;
+    margin: 0 0 0 30px;
     padding: 0;
 }
 
