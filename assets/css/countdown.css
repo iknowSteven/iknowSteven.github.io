@@ -21,6 +21,7 @@
     display: inline-block;
     margin: 0 10px 30px 10px;
     box-shadow: 0 0 15px 0 rgba(40,40,40,0.03);
+    text-align: left;
 }
 
 @media ( max-width: 1370px ) and ( min-width: 1098px ){
