@@ -50,7 +50,7 @@ body {
     }
 }
 
-@media ( max-width: 511px ) {
+@media ( max-width: 526px ) {
     #home_main {
         height: 520px;
     }
