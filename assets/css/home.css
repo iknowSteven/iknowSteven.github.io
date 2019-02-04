@@ -172,6 +172,7 @@ body {
     background-size: cover;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 #all_countdown_title {
