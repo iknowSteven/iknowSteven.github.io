@@ -76,7 +76,27 @@
 .countdown_container_white_subtext {
     color: #8d8d8d;
     position:relative;
-    font-weight: 400;
+    font-weight: 300;
+    font-size: 14px;
+    width: 70%;
+    left: 50%;
+    transform:translateX(-50%);
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.countdown_container_white_hr {
+    width: 80%;
+    height: 1px;
+    color: #8d8d8d;
+    position:relative;
+    left: 0px;
+}
+
+.countdown_container_white_subtext_Category {
+    color: #8d8d8d;
+    position:relative;
+    font-weight: 300;
     font-size: 14px;
     width: 70%;
     left: 50%;
