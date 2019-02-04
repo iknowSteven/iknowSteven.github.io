@@ -30,7 +30,6 @@
     padding: 0;
 }
 
-
 .countdown_container_white {
     width: 300px;
     height: 300px;
@@ -43,11 +42,11 @@
     vertical-align: middle;
 }
 
-.countdown_container_white h3 {
-    position:absolute;
+.countdown_remain {
+    position: relative;
     left: 50%;
     transform:translateX(-50%);
-    bottom: 0px;
+    top: 10px;
     font-size: 20px;
     font-weight: 500;
 }
