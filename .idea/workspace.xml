@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7e2bcec-6d8c-4ab1-9ee0-e1594788adc2" name="Default Changelist" comment="7">
-      <change beforePath="$PROJECT_DIR$/assets/css/countdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/countdown.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/src/grid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/countdown/AI_Study.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/countdown/AI_Study.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,11 +20,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
+            <state relative-caret-position="539">
               <caret line="45" column="30" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="30" />
               <folding>
                 <element signature="n#style#0;n#li#2;n#nav#0;n#header#0;n#article#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_includes/countdown/AI_Study.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -36,11 +47,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/countdown.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
               <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/js/src/grid.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="52" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -60,8 +80,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -79,7 +99,6 @@
         <option value="$PROJECT_DIR$/_includes/head.html" />
         <option value="$PROJECT_DIR$/assets/js/src/countdown.js" />
         <option value="$PROJECT_DIR$/_includes/header.html" />
-        <option value="$PROJECT_DIR$/_includes/countdown/AI_Study.html" />
         <option value="$PROJECT_DIR$/_includes/countdown/Travel.html" />
         <option value="$PROJECT_DIR$/_includes/countdown/Startup.html" />
         <option value="$PROJECT_DIR$/assets/css/home.css" />
@@ -87,12 +106,14 @@
         <option value="$PROJECT_DIR$/_includes/countdown/TECH.html" />
         <option value="$PROJECT_DIR$/_includes/countdown/Media.html" />
         <option value="$PROJECT_DIR$/assets/css/countdown.css" />
+        <option value="$PROJECT_DIR$/assets/grid.js" />
+        <option value="$PROJECT_DIR$/_includes/countdown/AI_Study.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="548" />
-    <option name="y" value="111" />
+    <option name="y" value="110" />
     <option name="width" value="1359" />
     <option name="height" value="833" />
   </component>
@@ -172,6 +193,11 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/js/src" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -196,15 +222,15 @@
       <updated>1549177623164</updated>
       <workItem from="1549177625922" duration="2817000" />
       <workItem from="1549180482330" duration="42861000" />
-      <workItem from="1549283431037" duration="2934000" />
+      <workItem from="1549283431037" duration="3224000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48612000" />
+    <option name="totallyTimeSpent" value="48902000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="548" y="111" width="1359" height="833" extended-state="0" />
+    <frame x="548" y="110" width="1359" height="833" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14723468" />
@@ -309,13 +335,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/src/countdown.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="90" selection-start-line="7" selection-start-column="90" selection-end-line="7" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/countdown/TECH.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -344,23 +363,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/countdown/AI_Study.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="45" column="30" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="30" />
-          <folding>
-            <element signature="n#style#0;n#li#2;n#nav#0;n#header#0;n#article#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/home.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="728">
@@ -368,10 +370,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/src/grid.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="52" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/src/countdown.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="90" selection-start-line="7" selection-start-column="90" selection-end-line="7" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/countdown.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="45" column="30" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#li#2;n#nav#0;n#header#0;n#article#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/countdown/AI_Study.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
         </state>
       </provider>
     </entry>
