@@ -22,12 +22,11 @@
 .countdown_container_white {
     background: #fff;
     /*width: calc(25% - 60px);*/
-    width: 100%;
-    color: #FFFFFF;
+    width: 100%; !important;
+    height: auto; !important;
     color: #FFFFFF;
     position: relative;
-    display: inline-block;
-    margin: 0 10px 30px 10px;
+    /*display: inline-block;*/
     box-shadow: 0 0 15px 0 rgba(40,40,40,0.03);
     text-align: left;
 }
