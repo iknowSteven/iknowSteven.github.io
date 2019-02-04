@@ -29,7 +29,7 @@
     box-shadow: 0 0 15px 0 rgba(40,40,40,0.03);
 }
 
-@media ( max-width: 1370px ) {
+@media ( max-width: 1370px ) and ( min-width: 1098px ){
     .countdown_container_white {
         width: calc(33.3% - 50px);
     }
