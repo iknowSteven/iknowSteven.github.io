@@ -7,6 +7,9 @@
 }
 
 #all_countdown {
+    position: relative;
+    left: 50%;
+    transform:translateX(-50%);
     width: 1540px;
     height: auto; !important;
     margin-top: 50px;
