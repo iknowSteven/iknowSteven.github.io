@@ -20,7 +20,7 @@ body {
 
 #home_main_container {
     width: 100%;
-    height: calc(100vh - 10px);
+    height: 100vh;
     background: #333333;
     margin: 0;
     padding: 0;
