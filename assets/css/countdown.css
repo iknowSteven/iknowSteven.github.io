@@ -1,3 +1,25 @@
+#all_countdown_container {
+    display: block;
+    margin: auto;
+    min-height: calc(100vh - 10px);
+    text-align: center;
+    overflow: hidden;
+}
+
+@media ( max-width: 1000px ) {
+    #all_countdown_container {
+        width: calc(100% - 20px);
+    }
+}
+
+#all_countdown h1 {
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    margin-left: 10px;
+}
+
 .countdown_container_white {
     width: 300px;
     height: 300px;
@@ -12,6 +34,7 @@
     background-size: cover;
     display: inline-block;
     margin: 0 10px 0 10px;
+    vertical-align: middle;
 }
 
 .countdown_container_white h1 {
