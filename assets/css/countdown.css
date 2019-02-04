@@ -45,6 +45,12 @@
     }
 }
 
+@media ( max-width: 1097px ) {
+    .countdown_container_white {
+        width: 100%;
+    }
+}
+
 .countdown_container_white_img {
     width: 100%;
     height: auto;
