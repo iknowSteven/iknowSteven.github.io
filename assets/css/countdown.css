@@ -29,24 +29,13 @@
     box-shadow: 0 0 15px 0 rgba(40,40,40,0.03);
 }
 
-@media ( max-width: 1000px ) {
-    .countdown_container_white {
-        width: calc(31.8vw - 28px);
-        height: calc(31.8vw - 28px);
+@media ( max-width: 1097px ) {
+    #all_countdown {
+        width: calc(100% - 40px);
     }
-}
 
-@media ( max-width: 890px ) {
     .countdown_container_white {
-        width: calc(100% - 20px);
-        height: calc(50vw - 48px);
-    }
-}
-
-@media ( max-width: 670px ) {
-    .countdown_container_white {
-        width: calc(100vw - 48px);
-        height: calc(100vw - 48px);
+        width: calc(50% - 20px);
     }
 }
 
