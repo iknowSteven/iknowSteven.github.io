@@ -21,8 +21,9 @@
     left: 50%;
     transform:translateX(-50%);
     top: 10px;
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 14px;
+    font-weight: 300;
+    color: #8d8d8d;
 }
 
 .countdown_container_white_title {
