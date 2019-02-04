@@ -10,6 +10,13 @@
     margin-top: 50px;
     color: #8d8d8d;
     display: inline-block;
+    line-height: 0;
+    -webkit-column-count: 5;
+    -webkit-column-gap:   0px;
+    -moz-column-count:    5;
+    -moz-column-gap:      0px;
+    column-count:         5;
+    column-gap:           0px;
 }
 
 .countdown_container_white {
