@@ -26,7 +26,7 @@
     display: inline-block;
     margin: 0 10px 30px 10px;
     vertical-align: middle;
-    box-shadow: 0 0 5px 0 rgba(40,40,40,0.5);
+    box-shadow: 0 0 15px 0 rgba(40,40,40,0.03
 }
 
 .countdown_remain {
@@ -61,7 +61,7 @@
     left: 50%;
     transform:translateX(-50%);
     margin-bottom: 30px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 @media ( max-width: 1000px ) {
