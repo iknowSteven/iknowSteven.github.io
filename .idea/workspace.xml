@@ -43,7 +43,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="2340" />
+          <entry key="css" value="2341" />
           <entry key="html" value="2291" />
           <entry key="js" value="303" />
           <entry key="txt" value="1" />
@@ -51,7 +51,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="2340" />
+          <entry key="CSS" value="2341" />
           <entry key="HTML" value="2291" />
           <entry key="JavaScript" value="303" />
           <entry key="PLAIN_TEXT" value="1" />
@@ -112,8 +112,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/countdown.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="685">
-              <caret line="50" column="15" selection-start-line="50" selection-start-column="15" selection-end-line="50" selection-end-column="15" />
+            <state relative-caret-position="587">
+              <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -272,12 +272,12 @@
       <option name="presentableId" value="Default" />
       <updated>1549177623164</updated>
       <workItem from="1549177625922" duration="2817000" />
-      <workItem from="1549180482330" duration="36535000" />
+      <workItem from="1549180482330" duration="36628000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39352000" />
+    <option name="totallyTimeSpent" value="39445000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1026" height="975" extended-state="0" />
@@ -442,8 +442,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/countdown.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="685">
-          <caret line="50" column="15" selection-start-line="50" selection-start-column="15" selection-end-line="50" selection-end-column="15" />
+        <state relative-caret-position="587">
+          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
         </state>
       </provider>
     </entry>
