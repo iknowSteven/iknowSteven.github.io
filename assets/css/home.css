@@ -33,6 +33,12 @@ html {
     transition: .5s;
 }
 
+@media ( max-width: 570px ) {
+    #home_main {
+        width: calc(100% - 40px);
+    }
+}
+
 #home_main_profile {
     border-radius: 50%;
     border: 3px solid #fff;
