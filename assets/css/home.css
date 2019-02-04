@@ -1,10 +1,11 @@
 html {
-    background: url("../../images/placeholder-big.jpg") no-repeat center center;
-    background-size: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background: #fff;
+    /*background: url("../../images/placeholder-big.jpg") no-repeat center center;*/
+    /*background-size: 100%;*/
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*-o-background-size: cover;*/
+    /*background-size: cover;*/
     display: inline-block;
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
