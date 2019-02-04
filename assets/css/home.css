@@ -206,7 +206,7 @@ body {
     line-height: 50px;
     color: #2c2d33;
     background-color: #fff;
-    position: sticky;
+    position: relative;
     left: 50%;
     top: 30px;
     transform:translateX(-50%);
