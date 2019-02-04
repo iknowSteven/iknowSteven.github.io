@@ -26,32 +26,15 @@
     height: auto; !important;
     color: #FFFFFF;
     position: relative;
-    /*display: inline-block;*/
     box-shadow: 0 0 15px 0 rgba(40,40,40,0.03);
     text-align: left;
 }
-
-/*@media ( max-width: 1370px ) and ( min-width: 1098px ){*/
-    /*.countdown_container_white {*/
-        /*width: calc(33.3% - 50px);*/
-    /*}*/
-/*}*/
 
 @media ( max-width: 1097px ) {
     #all_countdown {
         width: calc(100% - 20px);
     }
-
-    /*.countdown_container_white {*/
-        /*width: calc(50% - 40px);*/
-    /*}*/
 }
-
-/*@media ( max-width: 700px ) {*/
-    /*.countdown_container_white {*/
-        /*width: calc(100% - 40px);*/
-    /*}*/
-/*}*/
 
 .countdown_container_white_img {
     width: 100%;
