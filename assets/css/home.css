@@ -180,7 +180,7 @@ body {
     margin: 0;
     padding: 0;
     color: #fff;
-    position:absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     width: 100%;
