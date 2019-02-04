@@ -81,18 +81,11 @@
     width: 70%;
     left: 50%;
     transform:translateX(-50%);
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     margin-top: 30px;
 }
 
-.countdown_container_white_hr {
-    width: 80%;
-    color: #8d8d8d;
-    position: absolute;
-    left: 0px;
-}
-
-.countdown_container_white_subtext_Category {
+.countdown_container_white_subtext_post {
     color: #8d8d8d;
     position:relative;
     font-weight: 300;
@@ -101,7 +94,6 @@
     left: 50%;
     transform:translateX(-50%);
     margin-bottom: 30px;
-    margin-top: 30px;
 }
 
 .countdown_since {
