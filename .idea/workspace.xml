@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7e2bcec-6d8c-4ab1-9ee0-e1594788adc2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/_includes/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/countdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/countdown.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/home.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -26,7 +28,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="4" />
-          <entry key="html" value="11" />
+          <entry key="html" value="12" />
           <entry key="js" value="7" />
           <entry key="png" value="1" />
           <entry key="scss" value="3" />
@@ -35,7 +37,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="4" />
-          <entry key="HTML" value="11" />
+          <entry key="HTML" value="12" />
           <entry key="Image" value="1" />
           <entry key="JavaScript" value="7" />
           <entry key="SCSS" value="3" />
@@ -43,15 +45,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="1649" />
-          <entry key="html" value="1511" />
+          <entry key="css" value="1650" />
+          <entry key="html" value="1521" />
           <entry key="js" value="303" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="1649" />
-          <entry key="HTML" value="1511" />
+          <entry key="CSS" value="1650" />
+          <entry key="HTML" value="1521" />
           <entry key="JavaScript" value="303" />
         </counts>
       </usages-collector>
@@ -95,20 +97,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/countdown.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="64" selection-start-line="64" selection-end-line="69" selection-end-column="1" />
+            <state relative-caret-position="639">
+              <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/home.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+            <state relative-caret-position="120">
+              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/header.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -118,9 +129,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -140,10 +151,11 @@
         <option value="$PROJECT_DIR$/_includes/head.html" />
         <option value="$PROJECT_DIR$/assets/js/src/countdown.js" />
         <option value="$PROJECT_DIR$/_includes/countdown/Travel.html" />
-        <option value="$PROJECT_DIR$/assets/css/countdown.css" />
         <option value="$PROJECT_DIR$/_layouts/home.html" />
         <option value="$PROJECT_DIR$/_includes/countdown/TECH.html" />
+        <option value="$PROJECT_DIR$/_includes/header.html" />
         <option value="$PROJECT_DIR$/assets/css/home.css" />
+        <option value="$PROJECT_DIR$/assets/css/countdown.css" />
       </list>
     </option>
   </component>
@@ -256,12 +268,12 @@
       <option name="presentableId" value="Default" />
       <updated>1549177623164</updated>
       <workItem from="1549177625922" duration="2817000" />
-      <workItem from="1549180482330" duration="25196000" />
+      <workItem from="1549180482330" duration="25472000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28013000" />
+    <option name="totallyTimeSpent" value="28289000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1176" height="976" extended-state="0" />
@@ -386,13 +398,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/countdown.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="64" selection-start-line="64" selection-end-line="69" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/countdown/TECH.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -414,10 +419,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/home.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+        <state relative-caret-position="120">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/countdown.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="639">
+          <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
         </state>
       </provider>
     </entry>

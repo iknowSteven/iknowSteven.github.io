@@ -15,7 +15,6 @@
 #all_countdown h1 {
     font-size: 50px;
     font-weight: 700;
-    font-family: 'Ubuntu', sans-serif;
     color: #fff;
     margin-left: 10px;
 }
@@ -44,7 +43,6 @@
     left: 50%;
     width: 100%;
     transform:translate(-50%, -50%);
-    font-family: 'Ubuntu', sans-serif;
     font-size: 40px;
     font-weight: 700;
     text-align: center;
@@ -57,7 +55,6 @@
     left: 50%;
     transform:translateX(-50%);
     bottom: 0px;
-    font-family: 'Ubuntu', sans-serif;
     font-size: 20px;
     font-weight: 500;
 }
