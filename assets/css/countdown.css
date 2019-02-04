@@ -2,7 +2,7 @@
     display: block;
     margin: auto;
     min-height: calc(100vh - 10px);
-    text-align: left;
+    text-align: center
     overflow: hidden;
 }
 
@@ -35,7 +35,7 @@
     }
 
     .countdown_container_white {
-        width: calc(50% - 20px);
+        width: calc(50% - 40px);
     }
 }
 
