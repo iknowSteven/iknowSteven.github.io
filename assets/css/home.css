@@ -40,7 +40,7 @@ html {
     }
 }
 
-@media ( max-width: 479px ) {
+@media ( max-width: 511px ) {
     #home_main {
         height: 520px;
     }
