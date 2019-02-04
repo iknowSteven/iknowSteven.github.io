@@ -19,7 +19,7 @@
 
 .countdown_container_white {
     background: #fff;
-    width: 400px;
+    width: calc(25% - 60px);
     color: #FFFFFF;
     color: #FFFFFF;
     position: relative;
@@ -30,12 +30,8 @@
 }
 
 @media ( max-width: 1370px ) {
-    #all_countdown {
-        width: calc(100% - 40px);
-    }
-
     .countdown_container_white {
-        width: calc(25% - 60px);
+        width: calc(33.3% - 50px);
     }
 }
 
