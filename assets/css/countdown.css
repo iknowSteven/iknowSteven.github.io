@@ -30,6 +30,7 @@
     position: relative;
     box-shadow: 0 0 15px 0 rgba(40,40,40,0.03);
     text-align: left;
+    display: inline-block;
 }
 
 @media ( max-width: 1680px ) {
