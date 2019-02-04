@@ -19,7 +19,7 @@
 
 .countdown_remain {
     position: relative;
-    width: 90%;
+    width: 70%;
     left: 50%;
     transform:translateX(-50%);
     top: 10px;
@@ -34,7 +34,7 @@
     top: 12px;
     display: block;
     position:relative;
-    width: 90%;
+    width: 70%;
     left: 50%;
     transform:translateX(-50%);
     margin: 0;
