@@ -160,3 +160,14 @@ body {
     color: #000000;
     text-decoration: none;
 }
+
+#all_countdown_chapter {
+    width: 100%;
+    height: 400px;
+    background: url("../../images/turtle.jpg.jpg") no-repeat center center;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
