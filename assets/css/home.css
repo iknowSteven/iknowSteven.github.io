@@ -174,7 +174,7 @@ body {
     padding: 0;
 }
 
-#all_countdown_chapter h1 {
+#all_countdown_title {
      font-size: 50px;
      font-weight: 700;
      margin: 0;
@@ -187,7 +187,7 @@ body {
      transform:translate(-50%, -50%);
  }
 
-#all_countdown_chapter h3 {
+#all_countdown_subtitle {
     font-size: 20px;
     font-weight: 300;
     margin: 0;
