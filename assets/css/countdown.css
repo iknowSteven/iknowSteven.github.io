@@ -19,7 +19,7 @@
 
 .countdown_container_white {
     background: #fff;
-    width: 300px;
+    width: 400px;
     color: #FFFFFF;
     margin: auto;
     position: relative;
@@ -27,6 +27,27 @@
     margin: 0 10px 30px 10px;
     vertical-align: middle;
     box-shadow: 0 0 15px 0 rgba(40,40,40,0.03);
+}
+
+@media ( max-width: 1000px ) {
+    .countdown_container_white {
+        width: calc(31.8vw - 28px);
+        height: calc(31.8vw - 28px);
+    }
+}
+
+@media ( max-width: 890px ) {
+    .countdown_container_white {
+        width: calc(100% - 20px);
+        height: calc(50vw - 48px);
+    }
+}
+
+@media ( max-width: 670px ) {
+    .countdown_container_white {
+        width: calc(100vw - 48px);
+        height: calc(100vw - 48px);
+    }
 }
 
 .countdown_remain {
@@ -63,28 +84,6 @@
     margin-bottom: 30px;
     margin-top: 30px;
 }
-
-@media ( max-width: 1000px ) {
-    .countdown_container_white {
-        width: calc(31.8vw - 28px);
-        height: calc(31.8vw - 28px);
-    }
-}
-
-@media ( max-width: 890px ) {
-    .countdown_container_white {
-        width: calc(100% - 20px);
-        height: calc(50vw - 48px);
-    }
-}
-
-@media ( max-width: 670px ) {
-    .countdown_container_white {
-        width: calc(100vw - 48px);
-        height: calc(100vw - 48px);
-    }
-}
-
 
 .countdown_since {
     display: none;
