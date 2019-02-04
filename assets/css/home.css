@@ -108,22 +108,22 @@ html {
 }
 
 #home_main_social_container a {
-    color: #FFFFFF;
+    color: #000000;
     text-decoration: none;
 }
 
 #home_main_social_container a:link {
-    color: #FFFFFF;
+    color: #000000;
     text-decoration: none;
 }
 
 #home_main_social_container a:visited {
-    color: #FFFFFF;
+    color: #000000;
     text-decoration: none;
 }
 
 #home_main_social_container a:hover {
-    color: #FFFFFF;
+    color: #000000;
     text-decoration: none;
 }
 
