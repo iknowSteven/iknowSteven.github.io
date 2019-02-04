@@ -8,6 +8,8 @@ html {
     display: inline-block;
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 #home_main_container {
