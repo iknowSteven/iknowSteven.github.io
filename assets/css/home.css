@@ -110,22 +110,22 @@ html {
     text-align: center;
 }
 
-#home_main_social_container a {
+.home_main_social_link {
     color: #000000;
     text-decoration: none;
 }
 
-#home_main_social_container a:link {
+.home_main_social_link a:link {
     color: #000000;
     text-decoration: none;
 }
 
-#home_main_social_container a:visited {
+.home_main_social_link a:visited {
     color: #000000;
     text-decoration: none;
 }
 
-#home_main_social_container a:hover {
+.home_main_social_link a:hover {
     color: #000000;
     text-decoration: none;
 }
