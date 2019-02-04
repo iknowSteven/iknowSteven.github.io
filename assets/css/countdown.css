@@ -7,6 +7,7 @@
 }
 
 #all_countdown {
+    width: 1540px;
     margin-top: 50px;
     color: #8d8d8d;
     display: inline-block;
@@ -27,6 +28,12 @@
     position: relative;
     box-shadow: 0 0 15px 0 rgba(40,40,40,0.03);
     text-align: left;
+}
+
+@media ( max-width: 1680px ) {
+    #all_countdown {
+        width: calc(100% - 140px);
+    }
 }
 
 @media ( max-width: 1097px ) {
