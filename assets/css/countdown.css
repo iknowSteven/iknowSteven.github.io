@@ -14,6 +14,7 @@
 
 #all_countdown {
     margin-top: 50px;
+    color: #8d8d8d;
 }
 
 .countdown_remain {
@@ -23,7 +24,6 @@
     top: 10px;
     font-size: 14px;
     font-weight: 300;
-    color: #8d8d8d;
 }
 
 .countdown_container_white_title {
