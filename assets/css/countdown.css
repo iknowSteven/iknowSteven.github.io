@@ -29,6 +29,16 @@
     box-shadow: 0 0 15px 0 rgba(40,40,40,0.03);
 }
 
+@media ( max-width: 1370px ) {
+    #all_countdown {
+        width: calc(100% - 40px);
+    }
+
+    .countdown_container_white {
+        width: calc(25% - 60px);
+    }
+}
+
 @media ( max-width: 1097px ) {
     #all_countdown {
         width: calc(100% - 40px);
