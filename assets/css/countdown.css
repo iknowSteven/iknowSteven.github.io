@@ -30,11 +30,6 @@
     color: #FFFFFF;
     margin: auto;
     position: relative;
-    background-size: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
     display: inline-block;
     margin: 0 10px 0 10px;
     vertical-align: middle;
@@ -89,14 +84,15 @@
     display: none;
 }
 
-#AI_Study {
-    background: url("../../images/home/AI_Study.png") no-repeat center center;
-}
-
 #Startup {
     background: url("../../images/home/Startup.png") no-repeat center center;
 }
 
 #Travel {
     background: url("../../images/home/Startup.png") no-repeat center center;
+}
+
+.countdown_container_white_img {
+    width: 100%;
+    height: auto;
 }
