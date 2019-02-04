@@ -211,6 +211,12 @@ body {
     transform:translateX(-50%);
 }
 
+@media ( max-width: 1000px ) {
+    #all_countdown_chapter_header {
+        width: calc(100% - 40px);
+    }
+}
+
 #logo {
     position: absolute;
     left: 30px;
