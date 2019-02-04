@@ -50,6 +50,11 @@
     }
 }
 
+.countdown_container_white_img {
+    width: 100%;
+    height: auto;
+}
+
 .countdown_remain {
     position: relative;
     width: 70%;
@@ -106,9 +111,4 @@
 
 #Travel {
     background: url("../../images/home/Startup.png") no-repeat center center;
-}
-
-.countdown_container_white_img {
-    width: 100%;
-    height: auto;
 }
