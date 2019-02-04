@@ -17,6 +17,17 @@
     color: #8d8d8d;
 }
 
+.countdown_container_white {
+    width: 300px;
+    border-color: #2aa198;
+    color: #FFFFFF;
+    margin: auto;
+    position: relative;
+    display: inline-block;
+    margin: 0 10px 0 10px;
+    vertical-align: middle;
+}
+
 .countdown_remain {
     position: relative;
     width: 70%;
@@ -42,26 +53,14 @@
 
 .countdown_container_white_subtext {
     color: #8d8d8d;
-    top: 40px;
     position:relative;
     font-weight: 400;
     font-size: 14px;
     width: 70%;
     left: 50%;
     transform:translateX(-50%);
-    margin: 0 0 0 30px;
-    padding: 0;
-}
-
-.countdown_container_white {
-    width: 300px;
-    border-color: #2aa198;
-    color: #FFFFFF;
-    margin: auto;
-    position: relative;
-    display: inline-block;
-    margin: 0 10px 0 10px;
-    vertical-align: middle;
+    margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 @media ( max-width: 1000px ) {
