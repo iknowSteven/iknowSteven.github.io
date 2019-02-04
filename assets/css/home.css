@@ -217,6 +217,12 @@ body {
 
 @media ( max-width: 700px ) {
     #all_countdown_chapter_header {
+        width: 620px;
+    }
+}
+
+@media ( max-width: 66px ) {
+    #all_countdown_chapter_header {
         width: calc(100% - 40px);
     }
 }
