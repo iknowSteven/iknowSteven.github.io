@@ -18,8 +18,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="44" column="14" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
+            <state relative-caret-position="275">
+              <caret line="32" column="36" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="36" />
               <folding>
                 <element signature="n#style#0;n#li#2;n#nav#0;n#header#0;n#article#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -66,8 +66,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/countdown.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+            <state relative-caret-position="89">
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -75,7 +75,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/home.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2715">
+            <state relative-caret-position="421">
               <caret line="181" column="17" selection-start-line="181" selection-start-column="17" selection-end-line="181" selection-end-column="17" />
             </state>
           </provider>
@@ -222,12 +222,12 @@
       <updated>1549177623164</updated>
       <workItem from="1549177625922" duration="2817000" />
       <workItem from="1549180482330" duration="42861000" />
-      <workItem from="1549283431037" duration="133000" />
+      <workItem from="1549283431037" duration="221000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45811000" />
+    <option name="totallyTimeSpent" value="45899000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="207" y="99" width="1359" height="833" extended-state="0" />
@@ -342,16 +342,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" column="14" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#li#2;n#nav#0;n#header#0;n#article#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/countdown/AI_Study.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -380,17 +370,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="32" column="36" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="36" />
+          <folding>
+            <element signature="n#style#0;n#li#2;n#nav#0;n#header#0;n#article#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/home.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2715">
+        <state relative-caret-position="421">
           <caret line="181" column="17" selection-start-line="181" selection-start-column="17" selection-end-line="181" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/countdown.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+        <state relative-caret-position="89">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
         </state>
       </provider>
     </entry>

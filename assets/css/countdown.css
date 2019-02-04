@@ -6,12 +6,6 @@
     overflow: hidden;
 }
 
-@media ( max-width: 1000px ) {
-    #all_countdown_container {
-        width: calc(100% - 20px);
-    }
-}
-
 #all_countdown {
     margin-top: 50px;
     color: #8d8d8d;
