@@ -21,7 +21,7 @@
     background: #fff;
     width: 400px;
     color: #FFFFFF;
-    margin: auto;
+    color: #FFFFFF;
     position: relative;
     display: inline-block;
     margin: 0 10px 30px 10px;
@@ -87,9 +87,8 @@
 
 .countdown_container_white_hr {
     width: 80%;
-    height: 1px;
     color: #8d8d8d;
-    position:relative;
+    position: absolute;
     left: 0px;
 }
 
