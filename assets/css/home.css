@@ -107,6 +107,27 @@ html {
     text-align: center;
 }
 
+#home_main_social_container a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#home_main_social_container a:link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#home_main_social_container a:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#home_main_social_container a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
 .home_main_social_img {
     width: 30px;
     height: 30px;
