@@ -17,7 +17,7 @@
 }
 
 .countdown_container_white_title {
-    font-size: 28px;
+    font-size: 38px;
     font-weight: 700;
     color: #3f3f3f;
     top: 12px;
@@ -28,6 +28,7 @@
     transform:translateX(-50%);
     margin: 0;
     padding: 0;
+    float: left;
 }
 
 .countdown_container_white {
