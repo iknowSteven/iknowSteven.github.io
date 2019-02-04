@@ -164,7 +164,7 @@ body {
 #all_countdown_chapter {
     width: 100%;
     height: 400px;
-    background: url("../../images/turtle.jpg.jpg") no-repeat center center;
+    background: url("../../images/turtle.jpg") no-repeat center center;
     background-size: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
