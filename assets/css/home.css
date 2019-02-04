@@ -181,7 +181,7 @@ body {
      padding: 0;
      color: #fff;
      position: relative;
-     top: 50%;
+     top: 40%;
      left: 50%;
      width: 100%;
      transform:translate(-50%, -50%);
@@ -194,7 +194,7 @@ body {
     padding: 0;
     color: #fff;
     position: relative;
-    top: 50%;
+    top: 40%;
     left: 50%;
     width: 100%;
     transform:translate(-50%, -50%);
