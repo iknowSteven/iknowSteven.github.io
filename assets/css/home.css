@@ -213,7 +213,7 @@ body {
 
 @media ( max-width: 1000px ) {
     #all_countdown_chapter_header {
-        width: calc(100% - 40px);
+        width: 100%;
     }
 }
 
