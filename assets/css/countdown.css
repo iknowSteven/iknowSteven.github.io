@@ -9,7 +9,10 @@
 #all_countdown {
     margin-top: 50px;
     color: #8d8d8d;
-    display: inline-block;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+    grid-auto-rows: 20px;
 }
 
 .countdown_container_white {
