@@ -16,12 +16,15 @@
     margin-top: 50px;
 }
 
-#all_countdown h1 {
-    font-size: 50px;
+.countdown_container_white_title {
+    font-size: 28px;
     font-weight: 700;
-    color: #fff;
-    margin-left: 10px;
+    color: #3f3f3f;
+    margin-top: 12px;
+    margin-bottom: 14px;
+    line-height: 100%!important;
 }
+
 
 .countdown_container_white {
     width: 300px;
