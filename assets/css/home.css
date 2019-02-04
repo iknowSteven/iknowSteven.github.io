@@ -209,9 +209,9 @@ body {
     transform:translateX(-50%);
 }
 
-@media ( max-width: 1000px ) {
+@media ( max-width: 1079px ) {
     #all_countdown_chapter_header {
-        width: calc(100% - 40px);
+        width: calc(100% - 80px);
     }
 }
 
