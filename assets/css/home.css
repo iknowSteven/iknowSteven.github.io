@@ -221,4 +221,5 @@ body {
 #all_countdown_chapter_header_nav li {
     list-style-type : none;
     float: left;
+    margin-right: 10px;
 }
