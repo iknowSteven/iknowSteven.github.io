@@ -10,8 +10,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-<section id="main">
-    <div id="home_main_container">
+<div id="main">
+    <section id="home_main_container">
         <article id="home_main">
             <img id="home_main_profile" src="../images/Profile.png">
             <h1>iknowsteven</h1>
@@ -32,8 +32,8 @@
                 <p class="home_main_bio">#Statistics</p>
             </div>
         </article>
-    </div>
-    <div id="all_countdown_container">
+    </section>
+    <section id="all_countdown_container">
         <article id="all_countdown_chapter">
             <header id="all_countdown_chapter_header">
                 <span id="logo">iknowsteven</span>
@@ -58,8 +58,8 @@
             {% include countdown/Media.html %}
         </article>
         <script type="text/javascript" src="../../assets/js/src/countdown.js"></script>
-    </div>
-</section>
+    </section>
+</div>
 <script>
     $("#main").onepage_scroll({
         sectionContainer: "div",     // sectionContainer accepts any kind of selector in case you don't want to use section
