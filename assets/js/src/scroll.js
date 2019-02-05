@@ -14,7 +14,7 @@ window.addEventListener('scroll', function() {
         }, 1000);
         lastScroll = currentScroll;
 
-    } else if (currentScroll < lastScroll && currentScroll < 2 * windowSize && window.scrollY > 0) {
+    } else if (currentScroll < lastScroll && currentScroll < 2 * windowSize) {
         $('html, body').animate({
             scrollTop: $('#home_main_container').offset().top
         }, 1000);
