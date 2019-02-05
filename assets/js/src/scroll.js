@@ -22,13 +22,13 @@ function hasScrolled() {
     st = $(this).scrollTop();
 
     if (st > lastScrollTop && st <= windowSize){ // Scroll is in the first section and Down
-        document.getElementById('all_countdown_container').scrollIntoView({behavior: "smooth"});
+        document.getElementById('all_countdown_container').scrollIntoView();
     } else if (st > lastScrollTop && st > windowSize){ // Scroll is out from the first section and Down
         return;
     } else if (st < lastScrollTop && st <= windowSize){ // Scroll is in the first section and Up
         return;
     } else if (st < lastScrollTop && st > windowSize){ // Scroll is out from the first section and Up
-        document.getElementById('home_main_container').scrollIntoView({behavior: "smooth"});
+        document.getElementById('home_main_container').scrollIntoView();
     }
 
     lastScrollTop = st;
