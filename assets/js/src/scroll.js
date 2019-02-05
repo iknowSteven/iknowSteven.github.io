@@ -7,12 +7,20 @@ $(window).resize(function() {
 });
 
 window.addEventListener('scroll', function() {
-    if(window.scrollY < windowSize) {
-        $('#home_main_container').animate({
-            scrollTop: $('#all_countdown_container').offset().top
-        }, 1000);
-    }
-    else return;
+    currentScroll = $(this).scrollTop(); //get current
+        if (currentScroll < lastScroll && currentScroll < windowSize) { // Down Scroll and in the first section
+            $('html, body').animate({
+                scrollTop: $('#all_countdown_container').offset().top
+            }, 1000);
+        } else if (currentScroll  > lastScroll && currentScroll == windowSize ) {
+            $('html, body').animate({
+                scrollTop: $('#home_main_container').offset().top
+            }, 1000);
+        } else if (currentScroll > lastScroll && lastScroll < windowSize && currentScroll >= windowSize) {
+            $('html, body').animate({
+                scrollTop: $('#home_main_container').offset().top
+            }, 1000);
+        }
 });
 
 // var didScroll;
