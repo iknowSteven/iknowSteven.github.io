@@ -26,17 +26,6 @@ function hasScrolled() {
             scrollTop: $('#all_countdown_container').offset().top
         }, 1000);
 
-    } else if (st > lastScrollTop && st > windowSize){ // Scroll is out from the first section and Down
-        return;
-    } else if (st < lastScrollTop && st == windowSize){ // Scroll is in the first section and Up
-        return;
-        // $('html, body').animate({
-        //     scrollTop: $('#home_main_container').offset().top
-        // }, 1000);
-    } else if (st < lastScrollTop && st > windowSize){ // Scroll is out from the first section and Up
-        return;
-    }
-
     lastScrollTop = st;
 }
 
