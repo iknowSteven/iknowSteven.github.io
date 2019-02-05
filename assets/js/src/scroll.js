@@ -1,7 +1,7 @@
 var didScroll;
 var lastScrollTop = $(this).scrollTop();
 var windowSize = window.innerHeight;
-var st ;
+var st;
 
 $(window).resize(function(){
     windowSize = window.innerHeight;
@@ -23,9 +23,13 @@ function hasScrolled() {
 
     if (st > lastScrollTop && st <= windowSize){ // Scroll is in the first section and Down
         // document.getElementById('all_countdown_container').scrollIntoView({behavior: 'smooth'});
-        document.querySelector('#all_countdown_container').scrollIntoView({
-            behavior: 'smooth'
-        });
+        // document.querySelector('#all_countdown_container').scrollIntoView({
+        //     behavior: 'smooth'
+        // });
+
+        $('html, body').animate({
+            scrollTop: $('#all_countdown_container').offset().top
+        }, 0);
 
     } else if (st > lastScrollTop && st > windowSize){ // Scroll is out from the first section and Down
         return;
