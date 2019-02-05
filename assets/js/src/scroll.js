@@ -28,10 +28,12 @@ function hasScrolled() {
 
     } else if (st > lastScrollTop && st > windowSize){ // Scroll is out from the first section and Down
         return;
-    } else if (st < lastScrollTop && st <= windowSize){ // Scroll is in the first section and Up
-        document.getElementById('home_main_container').scrollIntoView({behavior: 'smooth'});
+    } else if (st < lastScrollTop && st == windowSize){ // Scroll is in the first section and Up
+        $('html, body').animate({
+            scrollTop: $('#home_main_container').offset().top
+        }, 1000);
     } else if (st < lastScrollTop && st > windowSize){ // Scroll is out from the first section and Up
-        document.getElementById('home_main_container').scrollIntoView({behavior: 'smooth'});
+        return;
     }
 
     lastScrollTop = st;
