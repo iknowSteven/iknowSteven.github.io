@@ -22,14 +22,9 @@ function hasScrolled() {
     st = $(this).scrollTop();
 
     if (st > lastScrollTop && st <= windowSize){ // Scroll is in the first section and Down
-        // document.getElementById('all_countdown_container').scrollIntoView({behavior: 'smooth'});
-        // document.querySelector('#all_countdown_container').scrollIntoView({
-        //     behavior: 'smooth'
-        // });
-
         $('html, body').animate({
             scrollTop: $('#all_countdown_container').offset().top
-        }, 10);
+        }, 1000);
 
     } else if (st > lastScrollTop && st > windowSize){ // Scroll is out from the first section and Down
         return;
