@@ -18,7 +18,7 @@ $(window).resize(function() {
 //     }
 // }, 1);
 
-$('html').scroll(function() {
+$(window).scroll(function() {
     currentScroll = $(this).scrollTop(); //get current
 
     if (currentScroll > lastScroll && st <= windowSize) {
