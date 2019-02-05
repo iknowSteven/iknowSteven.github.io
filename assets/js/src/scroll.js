@@ -1,6 +1,5 @@
 var didScroll;
-var lastScrollTop = 0;
-var delta = 1; // 동작의 구현이 시작되는 위치
+var lastScrollTop;
 var windowSize = window.innerHeight;
 var st ;
 
@@ -21,9 +20,6 @@ setInterval(function() {
 
 function hasScrolled() {
     st = $(this).scrollTop();
-
-    if (Math.abs((lastScrollTop - st) <= delta))
-        return;
 
     if (st > lastScrollTop && st <= windowSize){ // Scroll is in the first section and Down
         document.getElementById('all_countdown_container').scrollIntoView();
