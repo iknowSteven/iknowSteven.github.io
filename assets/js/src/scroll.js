@@ -8,7 +8,7 @@ $(window).resize(function() {
 
 window.addEventListener('scroll', function() {
     if(window.scrollY < windowSize) {
-        $('html, body').animate({
+        $('#home_main_container').animate({
             scrollTop: $('#all_countdown_container').offset().top
         }, 1000);
     }
