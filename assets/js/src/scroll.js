@@ -1,5 +1,5 @@
 var didScroll;
-var lastScrollTop;
+var lastScrollTop = $(this).scrollTop();
 var windowSize = window.innerHeight;
 var st ;
 
@@ -26,7 +26,7 @@ function hasScrolled() {
     } else if (st > lastScrollTop && st > windowSize){ // Scroll is out from the first section and Down
         return;
     } else if (st < lastScrollTop && st <= windowSize){ // Scroll is in the first section and Up
-        return;
+        document.getElementById('home_main_container').scrollIntoView();
     } else if (st < lastScrollTop && st > windowSize){ // Scroll is out from the first section and Up
         document.getElementById('home_main_container').scrollIntoView();
     }
