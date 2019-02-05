@@ -12,14 +12,20 @@ window.addEventListener('scroll', function() {
         $('html, body').animate({
             scrollTop: $('#all_countdown_container').offset().top
         }, 1000);
+        lastScroll = currentScroll;
+
     } else if (currentScroll  > lastScroll && currentScroll == windowSize ) {
         $('html, body').animate({
             scrollTop: $('#home_main_container').offset().top
         }, 1000);
+        lastScroll = currentScroll;
+
     } else if (currentScroll > lastScroll && lastScroll < windowSize && currentScroll > windowSize) {
         $('html, body').animate({
             scrollTop: $('#home_main_container').offset().top
         }, 1000);
+
+        lastScroll = currentScroll;
     }
     lastScroll = currentScroll;
 });
