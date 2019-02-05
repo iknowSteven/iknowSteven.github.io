@@ -29,7 +29,7 @@ function hasScrolled() {
 
         $('html, body').animate({
             scrollTop: $('#all_countdown_container').offset().top
-        }, 0);
+        }, 10);
 
     } else if (st > lastScrollTop && st > windowSize){ // Scroll is out from the first section and Down
         return;
