@@ -1,7 +1,7 @@
 var didScroll;
-var lastScrollTop = 0;
+var currentScroll;
+var lastScroll = 0;
 var windowSize = window.innerHeight;
-var st;
 
 $(window).resize(function() {
     windowSize = window.innerHeight;
@@ -16,23 +16,23 @@ setInterval(function() {
         hasScrolled();
         didScroll = false;
     }
-}, 250);
+}, 1);
 
 function hasScrolled() {
-    st = $(this).scrollTop(); //get current
+    currentScroll = $(this).scrollTop(); //get current
 
-    if (st > lastScrollTop && st <= windowSize) {
+    if (currentScroll > lastScroll && st <= windowSize) {
         $('html, body').animate({
             scrollTop: $('#all_countdown_container').offset().top
         }, 1000);
 
-    } else if (st > lastScrollTop && st > windowSize){ // Scroll is out from the first section and Down
+    } else if (currentScroll > lastScroll && st > windowSize){ // Scroll is out from the first section and Down
         return;
-    } else if (st < lastScrollTop && st == windowSize){ // Scroll is in the first section and Up
+    } else if (currentScroll < lastScroll && st == windowSize){ // Scroll is in the first section and Up
         $('html, body').animate({
             scrollTop: $('#home_main_container').offset().top
         }, 1000);
-    } else if (st < lastScrollTop && st > windowSize){ // Scroll is out from the first section and Up
+    } else if (currentScroll < lastScroll && st > windowSize){ // Scroll is out from the first section and Up
         document.getElementById('home_main_container').scrollIntoView({behavior: 'smooth'});
     }
 
