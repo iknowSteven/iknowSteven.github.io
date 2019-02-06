@@ -4,7 +4,9 @@ $(document).ready(function () {
 
     window.addEventListener('scroll', function () {
 
-        if (window.pageYOffset === 0) {
+        console.log(pageYOffset)
+
+        if (pageYOffset === 0) {
             // didScroll = false;
             $('html, body').animate({
                 scrollTop: $('#all_countdown_container').offset().top + 1
