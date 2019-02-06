@@ -8,7 +8,7 @@ $(window).resize(function() {
 
 window.addEventListener('scroll', function() {
     currentScroll = $(this).scrollTop(); //get current
-    if (currentScroll > lastScroll && currentScroll < windowSize) { // Down Scroll and in the first section
+    if (currentScroll > lastScroll && lastScroll < windowSize) { // Down Scroll and in the first section
         $('html, body').animate({
             scrollTop: $('#all_countdown_container').offset().top
         }, 1000);
