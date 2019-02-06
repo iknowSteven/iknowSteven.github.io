@@ -2,11 +2,12 @@ $(document).ready(function () {
 
     let didScroll = true;
 
-    window.addEventListener('scroll', function () {
+    window.addEventListener('scroll', function (e) {
 
         console.log(pageYOffset);
 
         if (didScroll) {
+            e.preventDefault();
             if (0 < pageYOffset && pageYOffset < innerHeight / 2) {
                 didScroll = false;
                 $('html, body').animate({
