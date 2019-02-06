@@ -4,13 +4,14 @@ var lastScroll = 0;
 var windowSize = window.innerHeight;
 
 $(window).scroll(function(event) {
+    console.log(didScroll)
     didScroll = true;
 });
 
 setInterval(function() {
-    if (didScroll) {
+    if (!didScroll) {
         hasScrolled();
-        didScroll = false;
+        didScroll = true;
     }
 }, 100);
 
