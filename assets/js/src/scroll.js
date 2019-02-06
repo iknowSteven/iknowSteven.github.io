@@ -1,13 +1,26 @@
+var didScroll;
 var currentScroll;
 var lastScroll = 0;
 var windowSize = window.innerHeight;
+
+setInterval(function() {
+    if (didScroll) {
+        hasScrolled();
+        didScroll = false;
+    }
+}, 100);
 
 $(window).resize(function() {
     windowSize = window.innerHeight;
 });
 
-window.addEventListener('scroll', function() {
+$(window).scroll(function(event) {
+    didScroll = true;
+});
+
+function hasScrolled() {
     currentScroll = $(this).scrollTop(); //get current
+
     if (currentScroll > lastScroll && lastScroll < windowSize) { // Down Scroll and in the first section
         $('html, body').animate({
             scrollTop: $('#all_countdown_container').offset().top
@@ -15,12 +28,26 @@ window.addEventListener('scroll', function() {
         lastScroll = currentScroll;
         return;
     }
-    // } else if (currentScroll < lastScroll && currentScroll < 2 * windowSize && currentScroll >= windowSize) {
-    //     $('html, body').animate({
-    //         scrollTop: $('#home_main_container').offset().top
-    //     }, 1000);
-    // }
-});
+
+    lastScroll = currentScroll;
+}
+
+
+// window.addEventListener('scroll', function() {
+//     currentScroll = $(this).scrollTop(); //get current
+//     if (currentScroll > lastScroll && lastScroll < windowSize) { // Down Scroll and in the first section
+//         $('html, body').animate({
+//             scrollTop: $('#all_countdown_container').offset().top
+//         }, 1000);
+//         lastScroll = currentScroll;
+//         return;
+//     }
+//     // } else if (currentScroll < lastScroll && currentScroll < 2 * windowSize && currentScroll >= windowSize) {
+//     //     $('html, body').animate({
+//     //         scrollTop: $('#home_main_container').offset().top
+//     //     }, 1000);
+//     // }
+// });
 
 // var didScroll;
 // var currentScroll;
