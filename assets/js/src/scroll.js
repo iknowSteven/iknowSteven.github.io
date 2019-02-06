@@ -3,6 +3,10 @@ var currentScroll;
 var lastScroll = 0;
 var windowSize = window.innerHeight;
 
+$(window).scroll(function(event) {
+    didScroll = true;
+});
+
 setInterval(function() {
     if (didScroll) {
         hasScrolled();
@@ -12,10 +16,6 @@ setInterval(function() {
 
 $(window).resize(function() {
     windowSize = window.innerHeight;
-});
-
-$(window).scroll(function(event) {
-    didScroll = true;
 });
 
 function hasScrolled() {
