@@ -1,63 +1,43 @@
+---
+layout: compress
+---
+
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>iknowsteven</title>
-    <link rel="stylesheet" type="text/css" href="../../assets/css/home.css">
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-    <script type="text/javascript" src="../assets/js/src/scroll.js"></script>
-    <script type="text/javascript" src="../assets/js/src/jquery.smoothscroll.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-<body>
-    <section id="home_main_container">
-        <article id="home_main">
-            <img id="home_main_profile" src="../images/Profile.png">
-            <h1>iknowsteven</h1>
-            <h3>(0, 0, 0, 0)</h3>
-            <hr class="hr_line">
-            <div id="home_main_social_container">
-                <a class="home_main_link" href="https://www.github.com/iknowsteven"><p class="home_main_social_black"><img class="home_main_social_img" src="../images/social/github-logo.svg" alt="Github"></p></a>
-                <a class="home_main_link" href="https://www.linkedin.com/in/iknowsteven/"><p class="home_main_social_gray"><img class="home_main_social_img" src="../images/social/linkedin-logo.svg" alt="LinkedIn"></p></a>
-                <a class="home_main_link" href="https://www.facebook.com/steven.ahn.186"><p class="home_main_social_black"><img class="home_main_social_img" src="../images/social/facebook-logo.svg" alt="Facebook"></p></a>
-                <a class="home_main_link" href="https://www.instagram.com/iknowsteven/"><p class="home_main_social_gray"><img class="home_main_social_img" src="../images/social/instagram-logo.svg" alt="Instagram"></p></a>
-            </div>
-            <hr class="hr_line">
-            <div id="home_main_bio_container">
-                <a class="home_main_link" href="https://www.pillowstudio.co.kr"><p class="home_main_bio">#Pillow_Studio_Senior_Director</p></a>
-                <a class="home_main_link" href="https://www.blossom.wiki"><p class="home_main_bio">#Blankit_CEO</p></a>
-                <a class="home_main_link" href="https://www.dodam.care"><p class="home_main_bio">#Dodam_CTO</p></a>
-                <p class="home_main_bio">#Computer Science</p>
-                <p class="home_main_bio">#Statistics</p>
-            </div>
-        </article>
-    </section>
-    <section id="all_countdown_container">
-        <article id="all_countdown_chapter">
-            <header id="all_countdown_chapter_header">
-                <span id="logo">iknowsteven</span>
-                <nav id="all_countdown_chapter_header_nav">
-                    <a class="home_main_link" href="#home_main_container" style="color: #fff;"><li>Bio</li></a>
-                    <a class="home_main_link" href="#all_countdown_container" style="color: #fff;"><li>Board</li></a>
-                    <a class="home_main_link" href="#" style="color: #fff;"><li style="margin-right: 0">Contacts</li></a>
-                </nav>
-            </header>
-            <p id="all_countdown_title">More waters to explore</p>
-            <p id="all_countdown_subtitle">Extraordinary Projects</p>
-        </article>
-        <article id="all_countdown">
-            {% include countdown/Startup.html %}
-            {% include countdown/AI_Study.html %}
-            {% include countdown/Linear_Algebra_Study.html %}
-            {% include countdown/Algorithm_Study.html %}
-            {% include countdown/Web_Development.html %}
-            {% include countdown/Travel.html %}
-            {% include countdown/TECH.html %}
-            {% include countdown/Book.html %}
-            {% include countdown/Media.html %}
-        </article>
-        <script type="text/javascript" src="../../assets/js/src/countdown.js"></script>
-    </section>
+<html>
+{% include head.html %}
+<body id="homepage">
+
+  <div class="block-left">
+    <div class="content">
+      <div class="main-info">
+        <a href="{{ site.url }}" class="logo"><img src="{{ site.url }}/images/{{ site.logo }}"></a>
+        <h1>
+          {{ site.title }}
+        </h1>
+        <h2>
+          {{ site.description }}
+        </h2>
+        {% include social-links.html %}
+      </div>
+    </div>
+    <canvas></canvas>
+  </div>
+
+  <div class="block-right">
+    <a href="{{ site.url }}/posts" title="posts" class="posts-menu-icon"></a>
+    <span class="posts-link">POSTS</span>
+    <a title="project" class="projects-menu-icon">
+      <span></span>
+    </a>
+    <span class="projects-link">PROJECTS</span>
+    <div class="content">
+      <div class="about-info">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+  {% include overlay.html %}
+  {% include scripts.html %}
+  <script src="{{ site.url }}/assets/js/canvas.js"></script>
 </body>
 </html>
