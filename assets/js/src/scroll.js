@@ -1,23 +1,28 @@
 $(document).ready(function () {
 
-    // let didScroll = true;
+    let didScroll = true;
 
     window.addEventListener('scroll', function () {
 
-        console.log(pageYOffset)
+        console.log(pageYOffset);
 
-        if (pageYOffset === 0) {
-            // didScroll = false;
-            $('html, body').animate({
-                scrollTop: $('#all_countdown_container').offset().top + 1
-            }, 1000);
+        if (didScroll) {
+            if (0 < pageYOffset && pageYOffset < innerHeight / 2) {
+                didScroll = false;
+                $('html, body').animate({
+                    scrollTop: $('#all_countdown_container').offset().top
+                }, 1000, function () {
+                    didScroll = true;
+                });
+            } else if (innerHeight / 2 < pageYOffset && pageYOffset < innerHeight) {
+                didScroll = false;
+                $('html, body').animate({
+                    scrollTop: 1
+                }, 1000, function () {
+                    didScroll = true;
+                });
+            }
         }
-        else if (pageYOffset === innerHeight) {
-            $('html, body').animate({
-                scrollTop: 1
-            }, 1000);
-        }
-
     });
 
 });
