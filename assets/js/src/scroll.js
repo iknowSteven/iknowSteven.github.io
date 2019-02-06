@@ -1,9 +1,10 @@
 $(document).ready(function () {
+
     let didScroll = true;
 
     window.addEventListener('scroll', function () {
 
-        if (didScroll) {
+        if (window.pageYOffset === 0) {
             didScroll = false;
             $('html, body').animate({
                 scrollTop: $('#all_countdown_container').offset().top
