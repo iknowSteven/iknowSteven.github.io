@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    document.body.style.overflow = 'hidden';
+    // document.body.style.overflow = 'hidden';
     let didScroll = true;
 
     window.addEventListener('scroll', function (e) {
