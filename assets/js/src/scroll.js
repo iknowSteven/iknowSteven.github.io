@@ -13,11 +13,11 @@ window.addEventListener('scroll', function() {
             scrollTop: $('#all_countdown_container').offset().top
         }, 1000);
 
-    } else if (currentScroll < lastScroll && currentScroll < 2 * windowSize && currentScroll >= windowSize) {
-        $('html, body').animate({
-            scrollTop: $('#home_main_container').offset().top
-        }, 1000);
-    }
+    // } else if (currentScroll < lastScroll && currentScroll < 2 * windowSize && currentScroll >= windowSize) {
+    //     $('html, body').animate({
+    //         scrollTop: $('#home_main_container').offset().top
+    //     }, 1000);
+    // }
     lastScroll = currentScroll;
 });
 
