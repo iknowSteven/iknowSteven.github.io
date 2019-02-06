@@ -1,0 +1,130 @@
+#all_countdown_container {
+    display: block;
+    margin: auto;
+    min-height: calc(100vh - 10px);
+    text-align: center;
+    overflow: hidden;
+}
+
+#all_countdown {
+    position: relative;
+    left: 50%;
+    transform:translateX(-50%);
+    width: 1540px;
+    height: auto; !important;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #8d8d8d;
+    line-height: 0;
+    -webkit-column-count: 4;
+    -webkit-column-gap:   10px;
+    -moz-column-count:    4;
+    -moz-column-gap:      10px;
+    column-count:         4;
+    column-gap:           10px;
+}
+
+.countdown_container_white {
+    background: #fff;
+    width: 100%; !important;
+    height: auto; !important;
+    color: #FFFFFF;
+    /*box-shadow: 0 0 15px 0 rgba(40,40,40,0.03);*/ /*abnormally work on sarari*/
+    text-align: left;
+    display: inline-block;
+    display: -moz-inline-block;
+    margin-bottom: 20px;
+}
+
+@media ( max-width: 1680px ) {
+    #all_countdown {
+        width: calc(100% - 140px);
+    }
+}
+
+@media ( max-width: 1300px ) {
+    #all_countdown {
+        -webkit-column-count: 3;
+        -moz-column-count:    3;
+        column-count:         3;
+    }
+}
+
+@media ( max-width: 1097px ) {
+    #all_countdown {
+        width: calc(100% - 20px);
+    }
+}
+
+@media ( max-width: 950px ) {
+    #all_countdown {
+        -webkit-column-count: 2;
+        -moz-column-count:    2;
+        column-count:         2;
+    }
+}
+
+@media ( max-width: 500px ) {
+    #all_countdown {
+        -webkit-column-count: 1;
+        -moz-column-count:    1;
+        column-count:         1;
+    }
+}
+
+.countdown_container_white_img {
+    width: 100%;
+    height: auto;
+}
+
+.countdown_remain {
+    position: relative;
+    width: 70%;
+    left: 50%;
+    transform:translateX(-50%);
+    top: 10px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.countdown_container_white_title {
+    font-size: 38px;
+    font-weight: 700;
+    color: #3f3f3f;
+    top: 12px;
+    position:relative;
+    width: 70%;
+    left: 50%;
+    transform:translateX(-50%);
+    margin: 0;
+    padding: 0;
+    line-height: 38px;
+}
+
+.countdown_container_white_subtext {
+    color: #8d8d8d;
+    position:relative;
+    font-weight: 300;
+    font-size: 14px;
+    width: 70%;
+    left: 50%;
+    transform:translateX(-50%);
+    margin-bottom: 20px;
+    margin-top: 30px;
+    line-height: 18px;
+}
+
+.countdown_container_white_subtext_post {
+    color: #8d8d8d;
+    position:relative;
+    font-weight: 300;
+    font-size: 14px;
+    width: 70%;
+    left: 50%;
+    transform:translateX(-50%);
+    line-height: 18px;
+}
+
+.countdown_since {
+    display: none;
+}
