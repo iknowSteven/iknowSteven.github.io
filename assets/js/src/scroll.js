@@ -10,21 +10,17 @@ $(document).ready(function () {
             e.preventDefault();
             if (0 < pageYOffset && pageYOffset < innerHeight / 2) {
                 didScroll = false;
-                document.body.style.overflow = 'hidden';
                 $('html, body').animate({
                     scrollTop: $('#all_countdown_container').offset().top
                 }, 1000, function () {
                     didScroll = true;
-                    document.body.style.overflow = '';
                 });
             } else if (innerHeight / 2 < pageYOffset && pageYOffset < innerHeight) {
                 didScroll = false;
-                document.body.style.overflow = 'hidden';
                 $('html, body').animate({
                     scrollTop: 1
                 }, 1000, function () {
                     didScroll = true;
-                    document.body.style.overflow = '';
                 });
             }
         }
