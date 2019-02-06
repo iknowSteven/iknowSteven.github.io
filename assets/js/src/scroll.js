@@ -7,12 +7,12 @@ $(document).ready(function () {
         if (window.pageYOffset === 0) {
             // didScroll = false;
             $('html, body').animate({
-                scrollTop: $('#all_countdown_container').offset().top
+                scrollTop: $('#all_countdown_container').offset().top + 1
             }, 1000);
         }
         else if (pageYOffset === innerHeight) {
             $('html, body').animate({
-                scrollTop: 0
+                scrollTop: 1
             }, 1000);
         }
 
