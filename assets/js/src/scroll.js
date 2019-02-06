@@ -1,13 +1,18 @@
 $(document).ready(function () {
 
-    let didScroll = true;
+    // let didScroll = true;
 
     window.addEventListener('scroll', function () {
 
         if (window.pageYOffset === 0) {
-            didScroll = false;
+            // didScroll = false;
             $('html, body').animate({
                 scrollTop: $('#all_countdown_container').offset().top
+            }, 1000);
+        }
+        else if (pageYOffset === innerHeight) {
+            $('html, body').animate({
+                scrollTop: 0
             }, 1000);
         }
 
